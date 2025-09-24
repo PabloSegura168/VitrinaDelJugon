@@ -1,10 +1,10 @@
 import javax.swing.*;
 import java.awt.*;
 
-public class BlocNotasExtendido {
+public class LoginExtendido {
     private JPanel panelBlocExtendido;
 
-    public BlocNotasExtendido() {
+    public LoginExtendido() {
         panelBlocExtendido = new JPanel();
         panelBlocExtendido.setLayout(null);
         panelBlocExtendido.setBackground(new Color(10, 42, 94));
@@ -90,7 +90,7 @@ public class BlocNotasExtendido {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
             JFrame frame = new JFrame("Bloc de Notas v.2");
-            frame.setContentPane(new BlocNotasExtendido().panelBlocExtendido);
+            frame.setContentPane(new LoginExtendido().panelBlocExtendido);
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             frame.setSize(750, 450);
             frame.setResizable(false);

@@ -3,12 +3,12 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class BlocNotasCreativo {
+public class LoginCreativo {
     private JPanel panelBlocCreativo;
     private JProgressBar barraProgreso;
     private Timer timer;
 
-    public BlocNotasCreativo() {
+    public LoginCreativo() {
 
         panelBlocCreativo = new JPanel() {
             private Image imagenFondo = new ImageIcon("Fotos/fondo.png").getImage();
@@ -236,7 +236,7 @@ public class BlocNotasCreativo {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
             JFrame frame = new JFrame("La vitrina del Jugon V.3");
-            frame.setContentPane(new BlocNotasCreativo().panelBlocCreativo);
+            frame.setContentPane(new LoginCreativo().panelBlocCreativo);
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             frame.setSize(750, 480);
             frame.setResizable(false);
