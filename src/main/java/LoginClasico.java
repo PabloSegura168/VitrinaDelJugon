@@ -50,13 +50,13 @@ public class LoginClasico {
         // Checkbox
         JCheckBox terminos = new JCheckBox("Acepto los términos y condiciones");
         terminos.setFont(new Font("Georgia Pro Cond", Font.PLAIN, 14));
-        terminos.setBounds(180, 240, 300, 25); // ancho fijo para que se vea completo
+        terminos.setBounds(180, 240, 300, 25);
         panelBloc.add(terminos);
 
         // Botón
         JButton acceder = new JButton("Acceder");
         acceder.setFont(new Font("Georgia Pro Cond", Font.BOLD, 18));
-        acceder.setBounds(225, 280, 150, 30); // centrado aprox.
+        acceder.setBounds(225, 280, 150, 30);
         panelBloc.add(acceder);
     }
 
@@ -66,7 +66,7 @@ public class LoginClasico {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(600, 350);
         frame.setResizable(false);
-        frame.setLocationRelativeTo(null); // Centra la ventana en la pantalla
+        frame.setLocationRelativeTo(null);
         frame.setVisible(true);
     }
 }

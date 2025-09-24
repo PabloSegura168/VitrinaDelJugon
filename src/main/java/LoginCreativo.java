@@ -27,13 +27,13 @@ public class LoginCreativo {
         Image imgR = logo.getImage().getScaledInstance(100, 100, Image.SCALE_SMOOTH);
         ImageIcon logoR = new ImageIcon(imgR);
         JLabel logoLabel = new JLabel(logoR);
-        logoLabel.setBounds(90, 15, 100, 100);  // Ajustada la posición
+        logoLabel.setBounds(90, 15, 100, 100);
         panelBlocCreativo.add(logoLabel);
 
         // Título
         JLabel titulo = new JLabel("La vitrina del Jugon V.3");
         titulo.setFont(new Font("Georgia Pro Cond Black", Font.BOLD, 32));
-        titulo.setBounds(190, 40, 450, 40);  // Mantenida la posición del título
+        titulo.setBounds(190, 40, 450, 40);
         titulo.setHorizontalAlignment(SwingConstants.LEFT);
         titulo.setForeground(Color.WHITE);
         panelBlocCreativo.add(titulo);
@@ -41,7 +41,7 @@ public class LoginCreativo {
         // JTabbedPane - Login vs Registro
         JTabbedPane pestañas = new JTabbedPane();
         pestañas.setFont(new Font("Georgia Pro Cond", Font.BOLD, 14));
-        pestañas.setBounds(50, 140, 650, 240);  // Mantenido en la misma posición
+        pestañas.setBounds(50, 140, 650, 240);
         pestañas.setBackground(new Color(10, 42, 94));
         pestañas.setForeground(Color.WHITE);
 
@@ -222,7 +222,6 @@ public class LoginCreativo {
                 } else {
                     timer.stop();
                     barraProgreso.setString("¡Conexión establecida!");
-                    // Aquí podrías abrir la ventana principal de la aplicación
                 }
             }
         });
