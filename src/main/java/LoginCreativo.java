@@ -18,10 +18,6 @@ public class LoginCreativo {
                 super.paintComponent(g);
                 Graphics2D g2d = (Graphics2D) g;
                 g2d.drawImage(imagenFondo, 0, 0, this.getWidth(), this.getHeight(), this);
-
-                // Añadir una capa semitransparente oscura sobre la imagen
-                g2d.setColor(new Color(0, 0, 0, 128)); // El último número (128) controla la opacidad
-                g2d.fillRect(0, 0, this.getWidth(), this.getHeight());
             }
         };
         panelBlocCreativo.setLayout(null);
