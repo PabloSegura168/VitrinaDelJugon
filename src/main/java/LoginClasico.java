@@ -61,7 +61,7 @@ public class LoginClasico {
     }
 
     public static void main(String[] args) {
-        JFrame frame = new JFrame("LoginClasico");
+        JFrame frame = new JFrame("La vitrina del Jugon");
         frame.setContentPane(new LoginClasico().panelBloc);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(600, 350);

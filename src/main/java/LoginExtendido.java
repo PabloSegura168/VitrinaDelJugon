@@ -89,7 +89,7 @@ public class LoginExtendido {
 
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
-            JFrame frame = new JFrame("Bloc de Notas v.2");
+            JFrame frame = new JFrame("La vitrina del Jugon v.2");
             frame.setContentPane(new LoginExtendido().panelBlocExtendido);
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             frame.setSize(750, 450);
